@@ -7,7 +7,7 @@ export default function Navbar({ movies }) {
     <nav className="nav-bar">
       <Logo />
       <Search />
-      <NumResult />
+      <NumResult movies={movies} />
     </nav>
   );
 }
